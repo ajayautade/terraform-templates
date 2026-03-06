@@ -1,2 +1,2 @@
-aws_region  = "ap-south-1"
-bucket_name = "my-unique-bucket-name-12345"   # ⚠️ CHANGE THIS — must be globally unique
+aws_region  = "ap-south-1"               # Your AWS Region
+bucket_name = "YOUR_UNIQUE_BUCKET_NAME"  # ⚠️ Must be globally unique! Add random numbers.
