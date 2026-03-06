@@ -66,6 +66,7 @@ terraform destroy    # Delete everything (type 'yes' to confirm)
 | Template | What it creates | Folder |
 |----------|----------------|--------|
 | EC2 Instance | A single EC2 server with security group | `ec2-instance/` |
+| Security Group | Firewall with all DevOps ports pre-configured | `security-group/` |
 | VPC | Full VPC with public/private subnets | `vpc/` |
 | S3 Bucket | S3 bucket with versioning and encryption | `s3-bucket/` |
 | RDS Database | MySQL/PostgreSQL managed database | `rds/` |
