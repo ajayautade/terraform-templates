@@ -1,0 +1,9 @@
+aws_region        = "ap-south-1"
+project_name      = "my-database"
+db_engine         = "mysql"            # or "postgres"
+db_engine_version = "8.0"             # MySQL 8.0 or PostgreSQL 15
+db_instance_class = "db.t3.micro"     # Free tier eligible
+db_storage        = 20                 # GB
+db_name           = "myapp"
+db_username       = "admin"
+db_password       = "YourStrongPassword123!"  # ⚠️ CHANGE THIS!
